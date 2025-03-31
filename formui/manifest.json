@@ -1,0 +1,31 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "kenta-form-UI!!!!",
+      "description": "売店のショップのアイテムを買うUI",
+      "uuid": "b1ef9620-a18e-4fa3-bdca-f5f1d3c71c31",
+      "version": [0, 1, 0],
+      "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+      {
+        "type": "script",
+        "language": "javascript",
+        "uuid": "b1ef9620-a18e-4fa3-bdca-f5f1d3c71c32",
+        "entry": "scripts/main.js",
+        "version": [0, 1, 0]
+      }
+    ],
+    "capabilities": ["script_eval"],
+    "dependencies": [
+  {
+    "module_name": "@minecraft/server",
+    "version": "1.7.0"
+  },
+  {
+    "module_name": "@minecraft/server-ui",
+    "version": "1.1.0"
+  }
+]
+
+  }
